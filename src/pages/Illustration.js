@@ -1,7 +1,7 @@
 export default function Illustration() {
   return (
     <div className="illustration">
-      <div className="page-header">Illustration </div>
+      <p className="page-header">Illustration </p>
       <div className="illustration-gallery">
         <img src="images/illustration/2 2.png" alt="flowers" />
         <img

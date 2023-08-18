@@ -1,7 +1,7 @@
 export default function GraphicDesign() {
   return (
     <div className="graphic_design">
-      <div className="page-header">Graphic Design </div>
+      <p className="page-header">Graphic Design </p>
       <div className="graphic_design-gallery">
         <img src="images/graphic_design/sahalie.png" alt="sahalie" />
         <img

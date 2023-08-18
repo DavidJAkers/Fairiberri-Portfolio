@@ -1,7 +1,7 @@
 export default function CharacterDesign() {
   return (
     <div className="character_design">
-      <div className="page-header">Character Design </div>
+      <p className="page-header">Character Design </p>
       <div className="character_design-gallery">
         <img src="images/character_design/iris no text.png" alt="iris" />
         <img src="images/character_design/lily.png" alt="lily" />

@@ -5,12 +5,10 @@ export default function Navbar() {
     <nav className="nav">
       <NavLink
         to="/"
-        style={({ isActive }) => {
-          return {
-            fontSize: isActive ? "28px" : "28px",
-            color: isActive ? "#333" : "#333",
-          };
-        }}
+        style = {{
+          fontSize: "28px"
+        }
+        }
       >
         Fairiberri
       </NavLink>

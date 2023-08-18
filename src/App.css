@@ -64,7 +64,7 @@ ul {
 }
 */
 .nav a:hover {
-  color: #f9d1de;
+  color: #c55f7d;
 }
 
 .page {
@@ -76,6 +76,7 @@ ul {
 .page-header {
   font-size: 28px;
   text-transform: uppercase;
+  padding-bottom: 10px;
 }
 
 .illustration-gallery,
@@ -102,7 +103,7 @@ ul {
   display: flex;
   width: 100%;
   gap: 50px;
-  padding: 30px 50px 0 50px;
+  padding: 30px 50px 30px 50px;
   justify-content: center;
 }
 
@@ -149,4 +150,65 @@ ul {
 .development-medium {
   text-align: center;
   margin-bottom: 30px;
+}
+.contact-section {
+  display: flex;
+  flex-direction: column;
+}
+.contact-header {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.email-link{
+  padding: 20px 0 20px;
+}
+
+.email-link a{
+  color: #c55f7d;
+  text-decoration: none;
+}
+
+.email-link a:hover {
+  color: #842f49;
+}
+
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 24px;
+  gap: 0.5em;
+
+}
+
+@media screen and (max-width: 800px) 
+{ .contact-section {
+  align-items: center;
+}}
+
+.social-links a {
+  display: flex;
+  align-items: center;
+  fill: white;
+  padding: .25em;
+  line-height: 0;
+  border-radius: 50%;
+  transition: all 0.2s ease-in-out;
+}
+
+.social-links a:hover {
+  transform: scale(1.2);
+}
+
+.twitter-link {
+  background-color: #1da1f2;
+}
+
+.instagram-link {
+  background-color: #f00075;
+}
+
+.linkedin-link {
+  background-color: #0d66c2;
 }

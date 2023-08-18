@@ -1,7 +1,7 @@
 export default function Animation() {
   return (
     <div className="animation">
-      <div className="page-header">Animation</div>
+      <p className="page-header">Animation</p>
       <div className="animation-gallery">
         <div className="fishbowl">
           <p className="video-title">Fish Tank</p>
@@ -11,9 +11,9 @@ export default function Animation() {
               height="100%"
               src="https://www.youtube.com/embed/RksLfJkUKmQ"
               title="YouTube video player"
-              frameborder="0"
+              //frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen;"
-              allowfullscreen
+              allowFullScreen
             ></iframe>
           </div>
           <p className="development-medium">
@@ -28,9 +28,9 @@ export default function Animation() {
               height="100%"
               src="https://www.youtube.com/embed/QIt5SA0IGvM"
               title="YouTube video player"
-              frameborder="0"
+              //frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen;"
-              allowfullscreen
+              allowFullScreen
             ></iframe>
           </div>
           <p className="development-medium">
@@ -45,9 +45,9 @@ export default function Animation() {
               height="100%"
               src="https://www.youtube.com/embed/MtZujAyE5Kw"
               title="YouTube video player"
-              frameborder="0"
+              //frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen;"
-              allowfullscreen
+              allowFullScreen
             ></iframe>
           </div>
           <p className="development-medium">
