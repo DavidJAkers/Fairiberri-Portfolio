@@ -1,23 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  
 }
 
 .App {
-position: relative;
-background-color: #f9d1de;
-font-size: 18px;
-padding-top: 27px;
-font-family: "Cabin",sans-serif;
+  position: relative;
+  background-color: #f9d1de;
+  font-size: 18px;
+  padding: 27px 0 27px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #333;
 }
-
 
 .main {
   background-color: white;
   max-width: 1200px;
-  width: 1200px;
   margin: 0 auto;
   padding: 54px;
 }
@@ -38,7 +40,7 @@ ul {
   margin-top: 0;
 }
 
-.nav ul{
+.nav ul {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -55,18 +57,96 @@ ul {
 
 .fairiberri {
   font-size: 28px;
-  color: #333;
 }
-
+/*
 .nav a.active {
   border-bottom: 1px solid #cf2e2e;
 }
+*/
 .nav a:hover {
-  color: #cf2e2e;
+  color: #f9d1de;
 }
 
 .page {
   border-top: 3px solid #eeeeee;
   border-bottom: 3px solid #eeeeee;
   padding: 25px 0 100px;
+}
+
+.page-header {
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+.illustration-gallery,
+.graphic_design-gallery,
+.character_design-gallery {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.illustration img,
+.graphic_design img,
+.character_design img {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  object-fit: contain;
+}
+
+.home-about {
+  display: flex;
+  width: 100%;
+  gap: 50px;
+  padding: 30px 50px 0 50px;
+  justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+  .home-about {
+    flex-wrap: wrap;
+  }
+}
+
+.home-text {
+  background-color: #ffe5ef;
+  padding: 1.25em 2.375em;
+  max-width: 400px;
+  height: auto;
+}
+
+.home-profile-pic img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
+
+.animation-gallery {
+  padding-top: 10px;
+}
+
+.animation-gallery iframe {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.video {
+  padding-bottom: 56.25%;
+  position: relative;
+  display: block;
+}
+
+.video-title {
+  font-size: 24px;
+  text-align: center;
+}
+
+.development-medium {
+  text-align: center;
+  margin-bottom: 30px;
 }
